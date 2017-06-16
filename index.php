@@ -7,7 +7,7 @@ session_start();
 
 
 //On donne ensuite un titre à la page, puis on appelle notre fichier debut.php
-$titre = "J.-C. Mitteau - ligne";
+$titre = "J.-C. Mitteau 2 - ligne";
 include("inclus/debut_index.php");
 ?>
 <body id="global">

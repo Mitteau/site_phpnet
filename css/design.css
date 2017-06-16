@@ -1,0 +1,167 @@
+/*design général site*/
+#global {margin: 0 auto;width: 1000px; border:0; padding:0;}
+body { background: beige; color: black; }
+a:link {color: navy;}
+a:hover {color:red}
+a:visited {color: #506020}
+a:active {color: #00bfff}
+#misenpage {height:580px;font-family:sans-serif;border:0px solid black;}
+#conteneur {width:1000px;font-family:sans-serif;border:0px solid black;}
+#wrap { height:500px; border:0px solid black;}
+#sidebar {width:200px; position:absolute; border:0px solid black;}/*position:absolute; */
+#contenu {margin-left:216px;width:780px; text-align:center; height:488px; overflow-y:scroll;border:0px solid black;clear:both}/*position:fixed; position:absolute;*/
+/*#footer {position:absolute;}*/
+#menu_chinois {position:absolute;z-index:1}
+
+img { display:inline;border:0px; }
+
+td { border: 1px solid DarkKhaki; background-color: beige; vertical-align:top; }
+table.forum { background-color: beige); border: 0px solid black; }
+th { background-color: DarkKhaki; border: 1px solid black; }
+
+caption {caption-side: bottom;}
+
+
+#menu {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 200px;
+}
+#menu ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  border: none;
+}
+#menu li {
+   background-color:black; 
+   margin-bottom:1px;
+   color:white;
+   border:0
+}
+#menu li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   background: lightgrey;
+   margin-bottom:1px;
+   color:#808080;
+}
+#menu a {
+  display:block;
+  text-decoration: none;
+  color: black;
+  padding: 1px 0;
+ font-family: verdana;
+  font-size:1em
+}
+#menu ul li a, #menu li:hover li a {
+  font-size:1em
+}
+#menu li:hover {
+   background: black
+}
+#menu li li:hover {
+   background: grey;
+}
+#menu ul li:last-child {
+   border:none;
+}
+#menu li:hover li {
+  max-height: 6em;
+}
+
+
+
+#menu1 {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: right;
+  width: 250px;
+}
+#menu1 ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: left;
+}
+#menu1 li {
+   background-color:beige; 
+}
+#menu1 li li {
+   max-height:0;
+   overflow: hidden;
+   color: black;
+  font-size:0.8em
+}
+#menu1 a {
+  display:block;
+  color: black;
+  padding: 1px 0;
+  font-size:1em
+}
+#menu1 ul li a, #menu li:hover li a {
+  font-size:1em
+  color:red;
+}
+#menu1 li:hover {
+   background: beige
+}
+#menu1 li li:hover {
+   background: beige;
+}
+#menu1 ul li:last-child {
+    border:none;
+}
+#menu1 li:hover li {
+  max-height: 1.2em;
+  color:red;
+}
+
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #808080;
+  color: #fff;
+  width: 200px;
+  /*font: 1.2em "Trebuchet MS", sans-serif;*/
+}
+.navigation a, .navigation span {
+  display: block;
+  padding: 4px 10px;
+  color: #fff;
+  text-decoration: none;
+  background: #000 url(menu-item.png) left bottom no-repeat;
+}
+.navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
+  background-image: url(menu-item.png);
+}
+.navigation .open a, .navigation .open span {
+  background-image: url(menu-item.png);
+}
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+  text-decoration: underline;
+}
+.navigation a:hover {
+  color:red;
+}
+
+.navigation .subMenu {
+  font-size: .8em;
+  background: #303030 url(subMenu.png) 0 0 repeat-x;
+  font-size: .9em;
+  /*color:black;*/
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #666;
+}
+.navigation ul.subMenu a {
+  background: none;
+  padding: 3px 20px;
+}

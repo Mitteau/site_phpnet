@@ -12,7 +12,7 @@ echo (!empty($titre))?'<title>'.$titre.'</title>':'<title>Forum</title>';
 <meta content="Teste le nouveau site" name=" Description">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <link rel="icon" type=image/gif" href="/SITE/commun/clavier.gif" />
-<link rel="stylesheet" type="text/css" title="Design" href="/css/design.css" />
+<link rel="stylesheet" type="text/css" title="Design" href="/css/design2.css" />
 <!--[if IE]>
 <link rel="stylesheet" type="text/css" title="Design" href="/css/IEdesign.css" />
 <![endif]-->

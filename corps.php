@@ -1,9 +1,8 @@
 <div id="conteneur">
-
 <!--XXXXXXXXXXXXXXXXXXXXXXXXX HAUT -->
 	<div id="header">
         <!-- Ceci est mon haut de page -->
-        <p    style="font-family:serif;font-weight:bold;font-size:x-large">JEAN-CLAUDE MITTEAU<br>16 juin 2017</p>
+        <p style="font-family:serif;font-weight:bold;font-size:xx-large;margin:0">JEAN-CLAUDE MITTEAU<br>16 juin 2017</p>
     </div><!--header-->
 
     <div id="wrap">
@@ -18,7 +17,7 @@
         	</div><!--figure-->
           	<div style="font-style:italic;height:30px;vertical-align:top;"><a href="http://www.jcmitteau.net/FORUM/index.php" style="border:0px;">D&eacute;couvrez le forum</a>
           	</div>
-          	<div style="font-style:bold;height:30px;vertical-align:top;"><a href="http://www.jcmitteau.net" style="border:0px;">Vous êtes connecté à ma nouvelle adresse&nbsp;: mitteau-jcl.fr (ou mieux, sécurisée,&nbsp;: https://lud9732.phpnet.org) de mon site jcmitteau.net.</a>
+          	<div style="font-style:bold;height:30px;vertical-align:top;"><a href="http://www.jcmitteau.net" style="border:0px;">Vous êtes connecté à ma nouvelle adresse de mon site jcmitteau.net&nbsp;: mitteau-jcl.fr (ou mieux, sécurisée,&nbsp;: https://lud9732.phpnet.org).</a>
           	</div>
 
 <!--            	<div style="font-style:italic;height:30px;vertical-align:top"><a href="" title="indisponible, en travaux">Le forum</a></div>-->
@@ -31,7 +30,7 @@
         <div id="contenu" style=" z-index:2;text-align: justify; text-justify: auto;">
         
         
-         <?php include ('inclus_pepita/contenu.php');?>
+         <?php include ('inclus/contenu.php');?>
         </div><!--contenu-->
 
 
