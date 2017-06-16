@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0">
+
+    <channel>
+        <title>Site de Jean-Claude Mitteau - version en ligne</title>
+        <description>Nouveautés</description>
+        <lastBuildDate>16 juin 2017</lastBuildDate>
+        <link>https://lud9732.phpnet.org</link>
+
+        <item>
+            <title>Nouvelle adresse de mon site</title>
+            <description>http://mitteau-jcl.fr, ou mieux, sécurisée : https://lud9732.phpnet.org.</description>
+            <pubDate>16 juin 2017</pubDate>
+            <link>https://lud9732.phpnet.org</link>
+        </item>
+
+    </channel>
+</rss>
