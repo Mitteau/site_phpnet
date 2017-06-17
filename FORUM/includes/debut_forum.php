@@ -301,8 +301,8 @@ $(document).ready( function () {// menu déroulant
 <tr>
 <!--<td style="width:750px;border:1px solid black">-->
 <td style="width:750px;border:0;margin:0">
-        <p    style="font-family:serif"><b><font size="6">J</font><font size="5">EAN-</font><font size="6">C</font><font size="5">LAUDE 
-            </font><font size="6">M</font><font size="5">ITTEAU</font></b></p>
+        <p    style="font-family:serif;margin:0"><b><font size="6">J</font><font size="6">EAN-</font><font size="6">C</font><font size="6">LAUDE 
+            </font><font size="6">M</font><font size="6">ITTEAU</font></b></p>
 
 
 </td>

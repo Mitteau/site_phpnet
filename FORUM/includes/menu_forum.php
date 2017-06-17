@@ -4,7 +4,7 @@
 <li><span>Le site</span>
 	<ul class="subMenu">
 	 <li><a onclick="affichage_popup('/propos.php', 'f1')">&Agrave; propos</a></li>
-	 <li><a href="/index.php">Le site</a></li>
+	 <li><a href="http://www.jcmitteau.net">Le site</a></li>
 	</ul>
 </li>
 
