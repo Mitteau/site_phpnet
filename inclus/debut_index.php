@@ -147,4 +147,41 @@ return $texte;
 $lvl=(isset($_SESSION['level']))?(int) $_SESSION['level']:1;
 $id=(isset($_SESSION['id']))?(int) $_SESSION['id']:0;
 $pseudo=(isset($_SESSION['pseudo']))?$_SESSION['pseudo']:'';
+
+echo "<script language=\"JavaScript\">
+<!-- 
+var w = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var h = window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight; 
+document.location=\"$PHP_SELF?r_window=1&Largeur=\"+w\"&Hauteur=\"+h;
+//-->
+</script>";
+     if(isset($_GET['Largeur']) && isset($_GET['Hauteur'])) {
+               // Résolution détectée
+          $largeur=$_GET['Largeur'];
+          $largeur=$largeur-20;
+          $largeur2=$largeur-220;
+          $largeur_e= $largeur."px";
+          $largeur2_e= $largeur2."px";
+          $hauteur= $_GET['Hauteur'];
+          $hauteur_conteneur=$hauteur-130;
+          $hauteur_contenu= $hauteur-160;
+          $hauteur_cr_e= $hauteur_conteneur."px";
+          $hauteur_cu_e= $hauteur_contenu."px";
+          $ok_size=true;
+     }
+     else {
+               // Résolution non détectée ... 1024x768
+          $largeur_e="994px";
+          $largeur2_e= "774px";
+          $hauteur=768;
+          $hauteur_cr_e="565px";
+          $hauteur_cu_e="538px";
+          $ok_size=false;
+     }
+//echo "là  ".$hauteur;
 ?>

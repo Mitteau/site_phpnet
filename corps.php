@@ -1,4 +1,10 @@
-<div id="conteneur">
+<?php 
+//if ($ok_size)
+//echo "ici ".$hauteur;//."   ".$hauteur_cr_e;
+//else echo 'pas de mesure fenêtre navigateur';
+//echo '<div id="conteneur" style="height:'.$hauteur_cr_e.'">';
+//echo 'id="conteneur" style="height:'.$hauteur_cr_e.'"';
+echo '<div id="conteneur" style="height:'.$hauteur_cr_e.'">';?>
 <!--XXXXXXXXXXXXXXXXXXXXXXXXX HAUT -->
 	<div id="header">
         <!-- Ceci est mon haut de page -->
@@ -27,7 +33,7 @@
         </div><!--sidebar-->
 <div id="bugIE7"></div>
 <!--XXXXXXXXXXXXXXXXXXXXXXXXX CONTENU -->
-        <div id="contenu" style=" z-index:2;text-align: justify; text-justify: auto;">
+<?php echo '<div id="contenu" style=" z-index:2;text-align: justify; text-justify: auto;height:'.$hauteur_cu_e.':width='.$largeur2_e.'">';?>
         
         
          <?php include ('inclus/contenu.php');?>
@@ -36,11 +42,11 @@
 
     </div><!--wrap-->
 
+</div><!--conteneur-->
 <!--XXXXXXXXXXXXXXXXXXXXXXXXX BAS -->
     <div id="footer"">
         <?php include 'inclus/fin.php' ?>
     </div><!--footer-->
 
 
-</div><!--conteneur-->
 
